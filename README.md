@@ -4,7 +4,7 @@ forked from clashman/it8951
 This branch is to compile it8951 arduino code on esp-idf environment.
 modified by yooni.kim71@gmail.com
 
-# Usage
+## Usage
  1. git clone --recursive https://github.com/andantesys/IT8951-for-esp32-with-arduino-code.git
  2. cd IT891-for-esp32-with-arduino-code
  3. git checkout develop
