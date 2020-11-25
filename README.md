@@ -4,6 +4,13 @@ forked from clashman/it8951
 This branch is to compile it8951 arduino code on esp-idf environment.
 modified by yooni.kim71@gmail.com
 
+# Usage
+ 1. git clone --recursive https://github.com/andantesys/IT8951-for-esp32-with-arduino-code.git
+ 2. cd IT891-for-esp32-with-arduino-code
+ 3. git checkout develop
+ 4. make menuconfig
+ 5. make flash monitor
+
 # Quick hack to port the IT8951 display driver to Arduino
 These instructions are as simple as possible to allow for easy reproduction. I don't endorse using the Arduino IDE for anything serious. The Espressif/IDF environment provides a way better experience.
 
