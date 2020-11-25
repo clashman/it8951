@@ -1,3 +1,9 @@
+#include "Arduino.h"
+
+#include "it8951.h"
+#include "display.h"
+#include "pic.h"
+
 void setup(void)
 {
     Serial.begin(115200);
@@ -22,10 +28,22 @@ extern unsigned char pic[];
 extern unsigned int pic_width;
 extern unsigned int pic_height;
 
+int i = 0;
+
 void loop() {
+    /*
     int x = random(0, gstI80DevInfo.usPanelW - pic_width);
     int y = random(0, gstI80DevInfo.usPanelH - pic_height);
     x -= x%4; // somehow the image is distorted when not aligned like this
 
     display_buffer(pic, x, y, pic_width, pic_height);
+    */
+
+    if (i < 1) {
+        i++;
+        int x = 0;
+        int y = 400;
+
+        display_buffer(pic, x, y, pic_width, pic_height);
+    }
 }
