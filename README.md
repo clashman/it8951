@@ -1,3 +1,9 @@
+# 'develop' branch
+forked from clashman/it8951
+
+This branch is to compile it8951 arduino code on esp-idf environment.
+modified by yooni.kim71@gmail.com
+
 # Quick hack to port the IT8951 display driver to Arduino
 These instructions are as simple as possible to allow for easy reproduction. I don't endorse using the Arduino IDE for anything serious. The Espressif/IDF environment provides a way better experience.
 
